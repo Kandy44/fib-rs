@@ -8,7 +8,7 @@ edition = "2018"
 
 
 [lib]
-name = "flitton_fib_rs"
+name = "nkandy44_fib_rs"
 crate-type = ["cdylib"]
 
 [dependencies.pyo3]
