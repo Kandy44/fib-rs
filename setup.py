@@ -26,12 +26,4 @@ setup(
     ],
     # rust extensions are not zip safe, just like C-extensions.
     zip_safe=False,
-    entry_points={
-        "console_scripts": [
-            "fib-number = nkandy44_fib_rs." "fib_number_command:" "fib_number_command",
-            "config-fib = nkandy44_fib_rs."
-            "config_number_command:"
-            "config_number_command",
-        ],
-    },
 )
